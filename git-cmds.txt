@@ -1,0 +1,56 @@
+📂 Comandos de Navegação e Arquivos
+clear = limpa a tela
+cd <nome-pasta> = transfere para pasta
+cd .. = volta para pasta anterior
+pwd = mostra qual pasta esta
+ls = lista os arquivos da pasta
+mkdir <nome-pasta> = cria uma pasta
+touch <caminho-arquivo>/<nome-arquivo> = para criar um arquivo
+ls -a = para exibir diretório oculto
+touch = criar dois arquivos
+code . = abrir a IDE
+
+🔧 Configuração do Git
+git config --global user.name "usuário"
+git config --global user.email "email"
+
+🟢 Inicialização e Status
+git init = cria um repositório local
+git status = para consultar as alterações
+
+📌 Adição e Commits
+git add <file> = para adicionar arquivo ao container
+git add */. = adiciona todos os arquivos ao container
+git commit -m "comentário" =  armazenar e add comentario no container
+git commit -am = adiciona arquivo ao container e cria um commit
+git diff = mostra as mudanças antes de realizar o commit
+
+📜 Logs e Histórico
+git log --oneline = consultar as alterações de um modo melhor
+git log = para gerenciar os arquivos
+git log --online = gerenciar os arquivos de maneira simples
+git log --graph = desenho do grafico de cammit
+git log --online --graph --all = para visulizar a ramificação no gráfico de modo simpes
+q = retorna ao branch
+
+🌿 Branches e Checkout
+git branch = identifica o ramo que o projeto se encontra
+git checkout <hash> = retorna para uma versão anterior
+git checkout master = retorna para o ultimo commit
+git checkout <file> = para desfazer alterações
+git checkout -b
+
+🔀 Merge e Reset
+git reset HEAD = remove o conteúdo do container
+git reset --hard <hash> = remove um container
+git merge <ramo> = para fundir ramos
+git merge --abort = para abordar o processo de fusão
+
+☁️ Repositórios Remotos
+git remote = verifica se existe um repositório remoto
+git remote add origin <link> = ligação do repositório local com o remoto
+git push -u origin master = enviar o repositório local para o remoto
+git push = para sincronizar alterações do repositorio local com o remoto
+git clone <repositório> = para clonar um repositório
+git pull = para sincronizar as alterações do repositório remoto com o local
+git fetch = usado para fazer o download das alterações do repositório remoto, para observar alterações
